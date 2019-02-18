@@ -1,0 +1,23 @@
+Github-
+Github Profiles
+Profiles: [ site:github.com "joined on" "public activity" -tab.activity ]
+Profiles with location: [ site:github.com "san francisco" "joined on" "public activity" -tab.activity ]
+Profiles with above + key terms: [ site:github.com (ios | android) "joined on" "public activity" -tab.activity ]
+Profiles with above + followers | starred count: [ site:github.com ("50..250 followers" | "100..500 starred") (ios | android) "joined on" -tab.activity ]
+You can also expand your search by removing [ -tab.activity ] in any of the strings examples above. Or target the activity page with [ tab.activity ]
+Additionally, you can include “email *” in your search string to return profiles that contain an email address in them, however email addresses are obfuscated and the returned results may include some noise if the term email is used elsewhere in the users profile.
+Narrow results by when a user joined: By year “joined on * 2009″  or by month  “joined on mar *”
+Github/Uploaded Resumes
+Github Resumes: [ site:resume.github.com ]
+Uploaded Resumes: [ site:github.com (intitle:resume|cv|vitae | inurl:resume|cv|vitae) -inurl:https|format ]
+Uploaded Resumes 2: [ site:github.com (intitle:resume|cv|vitae | inurl:com/resume | inurl:com/cv | inurl:com/vitae) -inurl:https|format ]
+Github Organizations
+Organizations: [ site:github.com "joined on" "repositories * members" -tab.members ]
+Organization locations: [ site:github.com "san francisco" "tab.members" ]
+Organization members: [ site:github.com inurl:tab.members ]
+Organizations + member count: [ site:github.com "50..500 members" "tab.members" ]
+Organizations + public repositories: [ site:github.com "1..100 public repos" "50..500 members" -tab.members ]
+Oranizations + repositories OR members: [ site:github.com (50..500 "public repos" | "members") "tab.members" ]
+Github Blogs/Personal Pages
+[ site:github.com (intitle:musings|blog) -inurl:https ]
+[ site:github.com (intitle:musings|blog | inurl:musings|blog) -inurl:https ]
